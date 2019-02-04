@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="700">
     <Grid>
-        <Button Name ="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="517,326,0,0" VerticalAlignment="Top" Width="135" Height="53"/>
-        <TextBlock HorizontalAlignment="Left" Margin="26,24,0,0" TextWrapping="Wrap" Text="Your BMI will appear here " VerticalAlignment="Top" Height="49" Width="225"/>
-        <TextBox HorizontalAlignment="Left" Height="51" Margin="26,136,0,0" TextWrapping="Wrap" Text="Please enter your height" VerticalAlignment="Top" Width="185"/>
-        <TextBox HorizontalAlignment="Left" Height="50" Margin="26,228,0,0" TextWrapping="Wrap" Text="Please enter your weight" VerticalAlignment="Top" Width="185"/>
+        <Button Name ="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="517,326,0,0" VerticalAlignment="Top" Width="135" Height="53" Click="btnCalculate_Click"/>
+        <TextBlock Name="BMI" HorizontalAlignment="Left" Margin="26,24,0,0" TextWrapping="Wrap" Text="Your BMI will appear here " VerticalAlignment="Top" Height="49" Width="225"/>
+        <TextBox Name="Height" HorizontalAlignment="Left" Height="51" Margin="26,136,0,0" TextWrapping="Wrap" Text="Please enter your height" VerticalAlignment="Top" Width="185"/>
+        <TextBox  Name ="Weight" HorizontalAlignment="Left" Height="50" Margin="26,228,0,0" TextWrapping="Wrap" Text="Please enter your weight" VerticalAlignment="Top" Width="185"/>
 
     </Grid>
 </Window>
